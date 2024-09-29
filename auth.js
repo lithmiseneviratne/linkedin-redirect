@@ -10,7 +10,7 @@ window.onload = function() {
     const tokenUrl = 'https://www.linkedin.com/oauth/v2/accessToken';
     const clientId = '867639hjcxnxsb'; // Replace with your LinkedIn Client ID
     const clientSecret = 'ayIjiEN7Uj8zZ4ik'; // Replace with your LinkedIn Client Secret (not secure on the frontend!)
-    const redirectUri = 'https://lithmiseenviratne.github.io/linkedin-redirect/auth/callback'; // Your GitHub Pages URL
+    const redirectUri = 'https://lithmiseneviratne.github.io/linkedin-redirect/auth/callback'; // Your GitHub Pages URL
 
     const bodyParams = new URLSearchParams({
       grant_type: 'authorization_code',
